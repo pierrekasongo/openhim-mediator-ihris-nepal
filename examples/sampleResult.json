@@ -1,0 +1,197 @@
+{
+    "entry": [
+        {
+            "Practitioner": {
+                "id": null,
+                "meta": {
+                    "lastUpdated": "2019-12-06T15:08:53+02:00"
+                },
+                "identifier": [
+                    {
+                        "system": "http://localhost/nepal-hwr/",
+                        "value": "person|10661"
+                    }
+                ],
+                "active": true,
+                "names": {
+                    "EnglishName": {
+                        "firstname": "Batsa",
+                        "othername": "Sanskrit",
+                        "surname": ""
+                    },
+                    "NepaliName": {
+                        "firstname": "",
+                        "othername": "",
+                        "surname": ""
+                    }
+                },
+                "nationality": "Nepal",
+                "gender": "Female",
+                "birthDate": "1997-03-23",
+                "caste": "Caste1",
+                "religion": "Hindu",
+                "contact": [
+
+                ],
+                "address": {
+                    "permanent": {
+                        "location": "Chaudandigadhi Municipality, Udayapur, Province 1, Nepal",
+                        "ward": "2",
+                        "place": "Patan",
+                        "house": "14",
+                        "postal_code": "1240"
+                    },
+                    "current": {
+                        "location": "Chaudandigadhi Municipality, Udayapur, Province 1, Nepal",
+                        "ward": "2",
+                        "place": "Patan",
+                        "house": "14",
+                        "postal_code": "1240"
+                    }
+                },
+                "identification": [
+                    {
+                        "id_type": "Passport",
+                        "id_num": null,
+                        "expirationDate": "2019-10-19"
+                    },
+                    {
+                        "id_type": "Citizenship",
+                        "id_num": null,
+                        "expirationDate": "2020-12-30"
+                    }
+                ],
+                "registration": [
+                    {
+                        "council": "Nepal Ayurvedic Medical Council",
+                        "cadre": "Medical Doctor",
+                        "registration_no": "1098987",
+                        "registrationDate": "2014-12-10"
+                    }
+                ],
+                "education": [
+                    {
+                        "edu_type": "High School",
+                        "degree": "",
+                        "specialization": "",
+                        "country": "Nepal",
+                        "institution": "MAHIDIO",
+                        "passoutDate": "1997-02-02",
+                        "passoutDateNepali": {
+                            "blank_text": ""
+                        }
+                    }
+                ],
+                "employment": [
+                    {
+                        "facility": "General Hospital",
+                        "position": "Medical Doctor",
+                        "startDate": "2015-10-10"
+                    }
+                ]
+            }
+        },
+        {
+            "Practitioner": {
+                "id": null,
+                "meta": {
+                    "lastUpdated": "2019-12-06T15:08:53+02:00"
+                },
+                "identifier": [
+                    {
+                        "system": "http://localhost/nepal-hwr/",
+                        "value": "person|10932"
+                    }
+                ],
+                "active": true,
+                "names": {
+                    "EnglishName": {
+                        "firstname": "Bhintuna",
+                        "othername": "Chitavake",
+                        "surname": ""
+                    },
+                    "NepaliName": {
+                        "firstname": "",
+                        "othername": "",
+                        "surname": ""
+                    }
+                },
+                "nationality": "Nepal",
+                "gender": "Male",
+                "birthDate": "1995-02-22",
+                "caste": "Caste1",
+                "religion": "Christianity",
+                "contact": [
+
+                ],
+                "address": {
+                    "permanent": {
+                        "location": "Chaudandigadhi Municipality, Udayapur, Province 1, Nepal",
+                        "ward": "2",
+                        "place": "Patan",
+                        "house": "14",
+                        "postal_code": "1240"
+                    },
+                    "current": {
+                        "location": "Chaudandigadhi Municipality, Udayapur, Province 1, Nepal",
+                        "ward": "2",
+                        "place": "Patan",
+                        "house": "14",
+                        "postal_code": "1240"
+                    }
+                },
+                "identification": [
+                    {
+                        "id_type": "Passport",
+                        "id_num": null,
+                        "expirationDate": "2019-10-19"
+                    },
+                    {
+                        "id_type": "Citizenship",
+                        "id_num": null,
+                        "expirationDate": "2020-12-30"
+                    }
+                ],
+                "registration": [
+                    {
+                        "council": "Nepal Ayurvedic Medical Council",
+                        "cadre": "Medical Doctor",
+                        "registration_no": "2030120",
+                        "registrationDate": "2014-12-10"
+                    }
+                ],
+                "education": [
+                    {
+                        "edu_type": "High School",
+                        "degree": "",
+                        "specialization": "",
+                        "country": "Nepal",
+                        "institution": "IPROKA",
+                        "passoutDate": "1997-02-02",
+                        "passoutDateNepali": {
+                            "blank_text": ""
+                        }
+                    },
+                    {
+                        "edu_type": "Master",
+                        "degree": "MBchB",
+                        "specialization": "Dentist",
+                        "country": "Nepal",
+                        "institution": "IPROKA",
+                        "passoutDate": "1997-02-02",
+                        "passoutDateNepali": {
+                            "blank_text": ""
+                        }
+                    }
+                ],
+                "employment": [
+                    {
+                        "facility": "General Hospital",
+                        "position": "Medical Doctor",
+                        "startDate": "2015-10-10"
+                    }
+                ]
+            }
+        }
+    ]
+}
