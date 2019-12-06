@@ -1,0 +1,13 @@
+Source: openhim-mediator-ihris-np
+Maintainer: Nobert Mijumbi
+Section: web
+Priority: optional
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7)
+
+
+Package: openhim-mediator-ihris-np
+Architecture: amd64
+Depends: openhim-core-js
+Recommends:
+Description: Passthrough mediator for Nepal Health workforce registry

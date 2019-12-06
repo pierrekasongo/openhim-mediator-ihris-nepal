@@ -1,0 +1,99 @@
+{
+  "urn": "urn:uuid:8d738850-1746-11ea-90f7-07326be03409",
+  "version": "0.0.1",
+  "name": "openhim-mediator-ihris-np",
+  "description": "Passthrough mediator for Nepal Health workforce registry",
+  "config": {
+    "nhwr": {
+      "password": "",
+      "username": "",
+      "url":"http://localhost/nepal-hwr/"
+    }
+  },
+  "defaultChannelConfig": [
+    {
+      "name": "Get Practitioner Data from NHWR",
+      "urlPattern": "/api/v1/getPractitioners/.*",
+      "alerts": [],
+      "txRerunAcl": [],
+      "txViewFullAcl": [],
+      "txViewAcl": [],
+      "properties": [],
+      "matchContentTypes": [],
+      "routes": [
+        {
+          "name": "Get Practitioner Data Route",
+          "host": "localhost",
+          "port": "4000",
+          "type": "http"
+        }
+      ],
+      "allow": [
+        "nhwr"
+      ],
+      "type": "http"
+    },
+    {
+      "name": "Update Practitioners Data to NHWR",
+      "urlPattern": "/api/v1/updatePractitioner",
+      "alerts": [],
+      "txRerunAcl": [],
+      "txViewFullAcl": [],
+      "txViewAcl": [],
+      "properties": [],
+      "matchContentTypes": [],
+      "routes": [
+        {
+          "port": "4000",
+          "host": "localhost",
+          "name": "Update Practitioners Data to NHWR",
+          "primary":true,
+          "type": "http"
+        }
+      ],
+      "allow": [
+        "nhwr"
+      ],
+      "type": "http"
+    }
+  ],
+  "endpoints": [
+    {
+      "name": "openhim-mediator-ihris-np Route",
+      "host": "localhost",
+      "path": "/",
+      "port": "4000",
+      "forwardAuthHeader":false,
+      "status":"enabled",
+      "type": "http"
+    }
+  ],
+  "configDefs": [
+    {
+      "param": "nhwr",
+      "displayName": "NepalHWR",
+      "description": "The Nepal health worker registry server to pull data from",
+      "type": "struct",
+      "template": [{
+          "type": "string",
+          "description": "The base URL",
+          "displayName": "URL",
+          "param": "url"
+        },
+        {
+          "type": "string",
+          "description": "Username required to post and get data",
+          "displayName": "Username",
+          "param": "username"
+        },
+        {
+          "type": "password",
+          "description": "Password required to post and get data",
+          "displayName": "Password",
+          "param": "password"
+        }
+      ],
+      "values": []
+    }
+  ]
+}
